@@ -1,0 +1,195 @@
+
+/* General Design */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #51434a;
+    background-color: #fffdfb;
+}
+
+/* Headings */
+
+h1 {
+    color: #b16c88;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 64px;
+    font-style: italic;
+    margin: 0 auto 18px;
+}
+
+h2 {
+    color: #b16c88;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h3 {
+    color: #a35d79;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Top Section */
+
+.top-section {
+    background-color: #f9e9ee;
+    padding: 90px 20px 0;
+}
+
+.top-section h2 {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.top-cloud {
+    display: block;
+    width: 120px;
+    margin: 0 18% 20px auto;
+}
+
+.bottom-cloud {
+    display: block;
+    width: 105px;
+    margin: 0 auto 0 18%;
+}
+
+.mountain {
+    display: block;
+    width: 75%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Main Sections */
+
+.profile-section,
+.skills-section,
+.contact-section {
+    width: 85%;
+    max-width: 750px;
+    margin: 70px auto;
+}
+
+/* Profile */
+
+.profile-section p {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.profile-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+/* Dotted Dividers */
+
+hr {
+    border: dotted #e8c5d2 7px;
+    border-bottom: none;
+    width: 50px;
+    margin: 75px auto;
+}
+
+/* Skills and Hobbies */
+
+.skill-item {
+    background-color: #fff6f8;
+    border: 1px solid #f1dce4;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.skill-image {
+    width: 110px;
+    height: 110px;
+}
+
+/* Links */
+
+a {
+    color: #a35d79;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6c3650;
+    text-decoration: underline;
+}
+
+/* Contact */
+
+.contact-section p {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #b16c88;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: #914b68;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f4dce5;
+    padding: 35px 20px 20px;
+}
+
+footer a {
+    margin: 0 15px;
+}
+
+footer p {
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 43px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .top-section {
+        padding-top: 55px;
+    }
+
+    .top-section h2 {
+        font-size: 18px;
+    }
+
+    .skill-item {
+        padding: 18px;
+    }
+
+    .mountain {
+        width: 95%;
+    }
+}
